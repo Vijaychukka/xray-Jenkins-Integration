@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  Background:"
+          },
+          {
+            "line": 4,
+            "value": "#  Given Launch chrome browser and navigate to Demo url"
+          }
+        ],
+        "line": 5,
+        "name": "testing scenario",
+        "description": "",
+        "id": "add-the-products-into-cart-and-verify-the-product-list;testing-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 131759800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "demo application is opened",
+            "match": {
+              "location": "MyStepdefs.demoApplicationIsOpened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print application",
+            "match": {
+              "location": "MyStepdefs.printApplication()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "testing scenario2",
+        "description": "",
+        "id": "add-the-products-into-cart-and-verify-the-product-list;testing-scenario2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 94300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "demo application is openedsecondtime",
+            "match": {
+              "location": "MyStepdefs.demoApplicationIsOpenedsecondtime()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "print applicationsecondtime",
+            "match": {
+              "location": "MyStepdefs.printApplicationsecondtime()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Add the products into cart and verify the product list",
+    "description": "",
+    "id": "add-the-products-into-cart-and-verify-the-product-list",
+    "keyword": "Feature",
+    "uri": "AcceptencetestsPassed.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Happypath"
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.13199">
+<testcase classname="Add the products into cart and verify the product list" name="testing scenario" time="0.131833">
+<system-out><![CDATA[Given demo application is opened............................................passed
+When print application......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add the products into cart and verify the product list" name="testing scenario2" time="0.000157">
+<system-out><![CDATA[Given demo application is openedsecondtime..................................passed
+When print applicationsecondtime............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
