@@ -3,17 +3,8 @@
     "line": 2,
     "elements": [
       {
-        "comments": [
-          {
-            "line": 3,
-            "value": "#  Background:"
-          },
-          {
-            "line": 4,
-            "value": "#  Given Launch chrome browser and navigate to Demo url"
-          }
-        ],
-        "line": 5,
+        "start_timestamp": "2022-07-10T15:51:36.655Z",
+        "line": 6,
         "name": "testing scenario",
         "description": "",
         "id": "add-the-products-into-cart-and-verify-the-product-list;testing-scenario",
@@ -22,32 +13,41 @@
         "steps": [
           {
             "result": {
-              "duration": 131759800,
+              "duration": 2000100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "demo application is opened",
             "match": {
-              "location": "MyStepdefs.demoApplicationIsOpened()"
+              "location": "com.demo.scripts.stepDefs.MyStepdefs.demoApplicationIsOpened()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 73400,
+              "duration": 998000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "print application",
             "match": {
-              "location": "MyStepdefs.printApplication()"
+              "location": "com.demo.scripts.stepDefs.MyStepdefs.printApplication()"
             },
             "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Happypath"
+          },
+          {
+            "name": "@test1"
           }
         ]
       },
       {
-        "line": 9,
+        "start_timestamp": "2022-07-10T15:51:36.723Z",
+        "line": 11,
         "name": "testing scenario2",
         "description": "",
         "id": "add-the-products-into-cart-and-verify-the-product-list;testing-scenario2",
@@ -56,27 +56,33 @@
         "steps": [
           {
             "result": {
-              "duration": 94300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "demo application is openedsecondtime",
             "match": {
-              "location": "MyStepdefs.demoApplicationIsOpenedsecondtime()"
+              "location": "com.demo.scripts.stepDefs.MyStepdefs.demoApplicationIsOpenedsecondtime()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 62900,
               "status": "passed"
             },
-            "line": 11,
+            "line": 13,
             "name": "print applicationsecondtime",
             "match": {
-              "location": "MyStepdefs.printApplicationsecondtime()"
+              "location": "com.demo.scripts.stepDefs.MyStepdefs.printApplicationsecondtime()"
             },
             "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Happypath"
+          },
+          {
+            "name": "@test1"
           }
         ]
       }
@@ -85,11 +91,15 @@
     "description": "",
     "id": "add-the-products-into-cart-and-verify-the-product-list",
     "keyword": "Feature",
-    "uri": "AcceptencetestsPassed.feature",
+    "uri": "file:src/test/resources/features/AcceptencetestsPassed.feature",
     "tags": [
       {
-        "line": 1,
-        "name": "@Happypath"
+        "name": "@Happypath",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
       }
     ]
   }
