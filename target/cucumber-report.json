@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-10T15:51:36.655Z",
+        "start_timestamp": "2022-07-10T21:51:35.397Z",
         "line": 6,
         "name": "testing scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000100,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,6 @@
           },
           {
             "result": {
-              "duration": 998000,
               "status": "passed"
             },
             "line": 8,
@@ -46,7 +45,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-10T15:51:36.723Z",
+        "start_timestamp": "2022-07-10T21:51:35.468Z",
         "line": 11,
         "name": "testing scenario2",
         "description": "",
@@ -56,6 +55,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1002700,
               "status": "passed"
             },
             "line": 12,
