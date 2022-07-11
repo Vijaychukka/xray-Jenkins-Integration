@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-10T21:51:35.397Z",
+        "start_timestamp": "2022-07-11T10:05:22.913Z",
         "line": 6,
         "name": "testing scenario",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 3003100,
               "status": "passed"
             },
             "line": 7,
@@ -41,11 +41,14 @@
           },
           {
             "name": "@test1"
+          },
+          {
+            "name": "@CMDVIJ-6"
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-10T21:51:35.468Z",
+        "start_timestamp": "2022-07-11T10:05:22.992Z",
         "line": 11,
         "name": "testing scenario2",
         "description": "",
@@ -55,7 +58,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1002700,
               "status": "passed"
             },
             "line": 12,
@@ -83,6 +85,9 @@
           },
           {
             "name": "@test1"
+          },
+          {
+            "name": "@CMDVIJ-7"
           }
         ]
       }

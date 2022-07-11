@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.205">
-    <testcase classname="Add the products into cart and verify the product list" name="testing scenario" time="0.061">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.192">
+    <testcase classname="Add the products into cart and verify the product list" name="testing scenario" time="0.067">
         <system-out>
             <![CDATA[Given demo application is opened............................................passed
 When print application......................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Add the products into cart and verify the product list" name="testing scenario2" time="0.002">
+    <testcase classname="Add the products into cart and verify the product list" name="testing scenario2" time="0.004">
         <system-out>
             <![CDATA[Given demo application is openedsecondtime..................................passed
 When print applicationsecondtime............................................passed
